@@ -21,8 +21,15 @@ public:
     }
 };
 
-int main() {
-    Student s1(101, "Arun");
+int main() 
+{
+    int rollNo=0;
+    string name;
+    cout<<"enter roll number:"<<endl;
+    cin>>rollNo;
+    cout<<"enter name:"<<endl;
+    cin>>name;
+    Student s1(rollNo,name);
     s1.display();
     return 0;
 }
