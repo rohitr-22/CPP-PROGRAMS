@@ -16,7 +16,7 @@ public:
         cout << "Roll Number : " << rollNo << endl;
         cout << "Name : " << name << endl;
     }
-    ~Student() {
+   ~Student() {
         cout << "Student object destroyed" << endl;
     }
 };

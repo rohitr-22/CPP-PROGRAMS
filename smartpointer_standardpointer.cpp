@@ -7,7 +7,7 @@ class Resource
  
 public: 
     Resource() 
-    { 
+    {
         cout << "Resource acquired" << endl; 
     } 
     ~Resource() 
